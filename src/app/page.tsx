@@ -9,12 +9,11 @@ export default function Home() {
   console.log(img);
 
   return (
-    <main className="min-h-screen bg-cream px-4 py-7 grid md:justify-center md:items-center">
-      <div className="max-w-xl grid md:grid-cols-2">
-
-        <Image className="md:hidden h-auto w-full rounded-t-xl md:rounded-t-none md:rounded-l-xl" src={img}
+    <main className="min-h-screen bg-cream px-4 py-7 grid md:justify-center items-start md:items-center">
+      <div className="max-w-xl grid grid-rows-auto md:grid-cols-2">
+        <Image className="md:hidden w-full rounded-t-xl md:rounded-t-none md:rounded-l-xl" src={img}
           alt=""
-          sizes="(max-width: 760px) 100vw, 300px)"
+
         />
         <Image className="hidden md:block h-auto w-full rounded-t-xl md:rounded-t-none md:rounded-l-xl md:rounded-tl-xl" src={imgLg}
           alt=""
