@@ -16,7 +16,7 @@ export default function Home() {
           alt=""
           sizes="(max-width: 760px) 100vw, 300px)"
         />
-        <Image className="hidden md:block h-auto w-full rounded-t-xl md:rounded-t-none md:rounded-l-xl" src={imgLg}
+        <Image className="hidden md:block h-auto w-full rounded-t-xl md:rounded-t-none md:rounded-l-xl md:rounded-tl-xl" src={imgLg}
           alt=""
           sizes="(max-width: 760px) 100vw, 300px)"
         />
